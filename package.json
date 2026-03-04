@@ -12,5 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "dayjs": "^1.11.19"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }
