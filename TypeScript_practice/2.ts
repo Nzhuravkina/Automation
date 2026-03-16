@@ -19,9 +19,9 @@ const strings: string[] = [
 interface TestCases {
     id: number;
     description: string;
-    expectedData?: { cost: 50000 };
+    expectedData?: { cost: number };
 }
-const testCases = [
+const testCases: TestCases[] = [
   { id: 1, description: 'Verify that header is shown' },
   { id: 2, description: 'Verify that cost is shown correctly', expectedData: { cost: 50000 } },
   { id: 3, description: 'Verify that footer is shown' },

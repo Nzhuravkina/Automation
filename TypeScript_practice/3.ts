@@ -1,6 +1,8 @@
+type State = "MN" | "NY" | "CA" | "CO" | "FL";
+
 interface Address {
     street: string;
-    state: "MN" | "NY" | "CA" | "CO" | "FL";
+    state: State;
     zipcode: string;
     city: string;
 }
